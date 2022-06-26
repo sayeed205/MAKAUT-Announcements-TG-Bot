@@ -61,6 +61,7 @@ bot.action("latest", (ctx) => {
       ],
     },
   });
+  console.log("Latest announcement button clicked");
 });
 
 /***************************************second_last_announcement**************************************/
@@ -78,6 +79,7 @@ bot.action("two", (ctx) => {
       ],
     },
   });
+  console.log("Second last butoon button clicked");
 });
 
 /***************************************third_last_announcement**************************************/
@@ -95,6 +97,7 @@ bot.action("three", (ctx) => {
       ],
     },
   });
+  console.log("Third last butoon button clicked");
 });
 
 /***************************************fourth_last_announcement**************************************/
@@ -112,6 +115,7 @@ bot.action("four", (ctx) => {
       ],
     },
   });
+  console.log("Fourth last butoon button clicked");
 });
 
 /***************************************fifth_last_announcement**************************************/
@@ -129,6 +133,7 @@ bot.action("five", (ctx) => {
       ],
     },
   });
+  console.log("Fifth last butoon button clicked");
 });
 
 /********************************************back_inline_button***********************************/
@@ -144,6 +149,7 @@ bot.action("back", (ctx) => {
       },
     }
   );
+  console.log("Back button clicked");
 });
 
 /*****************************************************close_inline_button**************************/
