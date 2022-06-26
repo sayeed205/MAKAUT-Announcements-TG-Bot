@@ -1,0 +1,23 @@
+{
+  "name": "MAKAUT Announcements TG Bot",
+  "description": "Node.js Telegraam Bot",
+  "logo": "https://avatars.githubusercontent.com/u/63891956?s=400&v=4&s=52",
+  "keywords": ["telegram", "bot", "nodejs", "MAKAUT", "Announcements"],
+  "repository": "https://github.com/sayeed205/MAKAUT-Announcements-TG-Bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather from Telegram"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
